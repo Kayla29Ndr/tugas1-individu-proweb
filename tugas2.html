@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<div class="container">
+<h1>Form Pendaftaran</h1>
+<form action="#" method="post">
+<fieldset>
+    <legend>Akun</legend>
+    <table>
+    <tr>
+        <td><label for="username">Username :</label></td>
+        <td><input type="text" id="username" name="username" placeholder="Masukkan username"></td>
+    </tr>
+    <tr>
+        <td><label for="password">Password :</label></td>
+        <td><input type="password" id="password" name="password" placeholder="Masukkan password"></td>
+    </tr>
+    <tr>
+        <td><label for="konfirmasi">Konfirmasi Password :</label></td>
+        <td><input type="password" id="konfirmasi" name="konfirmasi" placeholder="Konfirmasi password"></td>
+    </tr>
+    </table>
+</fieldset>
+
+<fieldset>
+    <legend>Data</legend>
+    <table>
+    <tr>
+        <td><label for="nama">Nama Lengkap :</label></td>
+        <td><input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap"></td>
+    </tr>
+    <tr>
+        <td>Tanggal Lahir :</td>
+        <td><input type="date" id="tanggal_lahir" name="tanggal_lahir"></td>
+    </tr>
+    <tr>
+        <td><label for="alamat">Alamat Lengkap :</label></td>
+        <td><textarea id="alamat" name="alamat" cols="30" rows="4" placeholder="Masukkan alamat lengkap"></textarea></td>
+    </tr>
+
+    <tr>
+        <td>Program Studi :</td>
+        <td>
+        <select id="prodi" name="prodi">
+            <option value="">Pilih Prodi</option>
+            <option value="Ilmu Komputer">Ilmu Komputer</option>
+            <option value="Teknologi Informasi">Teknologi Informasi</option> 
+        </select>
+        </td>
+    </tr> 
+    <tr>  
+        <td>Jenis Kelamin :</td>
+        <td>
+            <input type="radio" id="pria" name="jenis_kelamin" value="Pria">
+            <label for="pria">Pria</label><br>
+            <input type="radio" id="wanita" name="jenis_kelamin" value="Wanita">
+            <label for="wanita">Wanita</label>
+        </td>
+    </tr>  
+    <tr>  
+        <td>Hobi :</td>
+            <td>
+            <input type="checkbox" id="olahraga" name="hobi" value="Olahraga">
+            <label for="olahraga">Olahraga🏃</label><br>
+            <input type="checkbox" id="nonton" name="hobi" value="Nonton">
+            <label for="nonton">Nonton🍿</label><br>
+            <input type="checkbox" id="traveling" name="hobi" value="Traveling">
+            <label for="traveling">Traveling✈️</label><br>
+            <input type="checkbox" id="membaca" name="hobi" value="Membaca">
+            <label for="membaca">Membaca📘</label><br>
+            <input type="checkbox" id="memasak" name="hobi" value="Memasak">
+            <label for="memasak">Memasak👩‍🍳</label>
+            </td>
+    </tr>
+</table>
+</fieldset>
+<button type="submit">Daftar</button>
+<button type="reset">Reset</button>
+</form>
+</div>
+</body>
+</html>

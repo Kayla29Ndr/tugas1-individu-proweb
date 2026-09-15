@@ -1,0 +1,95 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    padding: 20px;
+    margin: 0;
+    }
+h1 {
+    text-align: center;
+    color: deeppink;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 500px;
+    max-width:600px ;
+    margin: 0 auto;
+    border-radius: 20px;
+    background: white;
+    padding: 35px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0,12);
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border: 2px;
+    border-radius: 4px;
+    padding: 15px;
+    width: 400px; 
+    background-color:pink;
+    }
+
+legend {
+    font-weight: bold;
+    padding: 0 6px;
+    color:deeppink;
+    font-size: 20px;
+    }
+
+input [type="username"]
+
+fieldset table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 4px pink;
+    }
+
+fieldset table td {
+    border: none;
+    padding: 4px 4px;
+    font-size: 15px;
+}
+input[type="text"],
+input[type="password"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 8px;
+    border: 1px solid #c8d6c8;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 14px;
+    background-color: #fde4ec;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    color: #e8477d;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+fieldset table td:first-child {
+    width: 180px;
+    font-weight: 500; 
+    }
+
+button[type="submit"] {
+    background-color: hotpink;
+    color:white;
+}
+
+button[type="submit"] :hover {
+    background-color: hotpink;
+}
+
+button[type="reset"] {
+    background-color: hotpink;
+    color:white;
+}
+
+button[type="reset"] :hover{
+    background-color: hotpink;
+}
